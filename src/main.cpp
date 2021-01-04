@@ -61,7 +61,7 @@ double overall_brightness = 1;
 PWMLED red_led(12, 0, freq, resolution);
 PWMLED green_led(14, 1, freq, resolution);
 PWMLED blue_led(27, 2, freq, resolution);
-const int rainbow_res = 1000;
+const int rainbow_res = 2000;
 RainbowColorGenerator rainbowGen(rainbow_res);
 
 const int default_mode = 1;
